@@ -1,0 +1,81 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+td:hover {
+    background-color: #f1f1f1;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 300px;
+    display: inline-block;
+}
+
+button.edit {
+    background-color: #28a745;
+    color: white;
+}
+
+button.edit:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+button.delete {
+    background-color: #dc3545;
+    color: white;
+}
+
+button.delete:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+}
+
+form {
+    margin-top: 20px;
+}
+
+input {
+    margin: 5px;
+    padding: 10px;
+    width: 220px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.item-list {
+    margin: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+td:last-child {
+    width: 150px;
+    text-align: center;
+}
